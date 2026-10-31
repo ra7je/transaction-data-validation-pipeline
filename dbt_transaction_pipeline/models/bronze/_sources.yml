@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: bank_transactions
+    description: Raw bank transaction records ingested into Snowflake.
+    database: BANK_TRANSACTION_DB
+    schema: BRONZE
+
+    tables:
+      - name: raw_transactions
+        description: Original transaction legs loaded from the generated JSON file.

@@ -1,0 +1,51 @@
+
+version: 2
+
+models:
+  - name: fact_valid_transactions
+    description: Validated transaction legs published to the Gold layer.
+
+    columns:
+      - name: transaction_id
+        data_tests:
+          - not_null
+
+      - name: leg_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: account_id
+        data_tests:
+          - not_null
+
+      - name: amount
+        data_tests:
+          - not_null
+
+      - name: currency
+        data_tests:
+          - not_null
+
+      - name: leg_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['DEBIT', 'CREDIT']
+
+  - name: transaction_reconciliation
+    description: Transaction-level debit and credit reconciliation results.
+
+    columns:
+      - name: transaction_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: is_balanced
+        data_tests:
+          - not_null
+
+      - name: has_consistent_currency
+        data_tests:
+          - not_null

@@ -1,0 +1,122 @@
+[
+  {
+    "transaction_id": "TXN0000001",
+    "leg_id": "TXN0000001_D",
+    "account_id": "ACC0082",
+    "counterparty_account_id": "ACC0015",
+    "leg_type": "DEBIT",
+    "amount": "33.78",
+    "currency": "USD",
+    "event_timestamp": "2026-01-01T00:00:00+00:00",
+    "event_sequence": 1,
+    "reference_id": "REF0000001"
+  },
+  {
+    "transaction_id": "TXN0000001",
+    "leg_id": "TXN0000001_C",
+    "account_id": "ACC0015",
+    "counterparty_account_id": "ACC0082",
+    "leg_type": "CREDIT",
+    "amount": "33.78",
+    "currency": "USD",
+    "event_timestamp": "2026-01-01T00:00:01+00:00",
+    "event_sequence": 2,
+    "reference_id": "REF0000001"
+  },
+  {
+    "transaction_id": "TXN0000002",
+    "leg_id": "TXN0000002_D",
+    "account_id": "ACC0032",
+    "counterparty_account_id": "ACC0029",
+    "leg_type": "DEBIT",
+    "amount": "183.89",
+    "currency": "INR",
+    "event_timestamp": "2026-01-01T00:00:02+00:00",
+    "event_sequence": 1,
+    "reference_id": "REF0000002"
+  },
+  {
+    "transaction_id": "TXN0000002",
+    "leg_id": "TXN0000002_C",
+    "account_id": "ACC0029",
+    "counterparty_account_id": "ACC0032",
+    "leg_type": "CREDIT",
+    "amount": "183.89",
+    "currency": "INR",
+    "event_timestamp": "2026-01-01T00:00:03+00:00",
+    "event_sequence": 2,
+    "reference_id": "REF0000002"
+  },
+  {
+    "transaction_id": "TXN0000003",
+    "leg_id": "TXN0000003_D",
+    "account_id": "ACC0087",
+    "counterparty_account_id": "ACC0095",
+    "leg_type": "DEBIT",
+    "amount": "715.82",
+    "currency": "INR",
+    "event_timestamp": "2026-01-01T00:00:04+00:00",
+    "event_sequence": 1,
+    "reference_id": "REF0000003"
+  },
+  {
+    "transaction_id": "TXN0000003",
+    "leg_id": "TXN0000003_C",
+    "account_id": "ACC0095",
+    "counterparty_account_id": "ACC0087",
+    "leg_type": "CREDIT",
+    "amount": "715.82",
+    "currency": "INR",
+    "event_timestamp": "2026-01-01T00:00:05+00:00",
+    "event_sequence": 2,
+    "reference_id": "REF0000003"
+  },
+  {
+    "transaction_id": "TXN0000004",
+    "leg_id": "TXN0000004_D",
+    "account_id": "ACC0076",
+    "counterparty_account_id": "ACC0055",
+    "leg_type": "DEBIT",
+    "amount": "42.65",
+    "currency": "INR",
+    "event_timestamp": "2026-01-01T00:00:06+00:00",
+    "event_sequence": 1,
+    "reference_id": "REF0000004"
+  },
+  {
+    "transaction_id": "TXN0000004",
+    "leg_id": "TXN0000004_C",
+    "account_id": "ACC0055",
+    "counterparty_account_id": "ACC0076",
+    "leg_type": "CREDIT",
+    "amount": "42.65",
+    "currency": "INR",
+    "event_timestamp": "2026-01-01T00:00:07+00:00",
+    "event_sequence": 2,
+    "reference_id": "REF0000004"
+  },
+  {
+    "transaction_id": "TXN0000005",
+    "leg_id": "TXN0000005_D",
+    "account_id": "ACC0012",
+    "counterparty_account_id": "ACC0028",
+    "leg_type": "DEBIT",
+    "amount": "305.95",
+    "currency": "INR",
+    "event_timestamp": "2026-01-01T00:00:08+00:00",
+    "event_sequence": 1,
+    "reference_id": "REF0000005"
+  },
+  {
+    "transaction_id": "TXN0000005",
+    "leg_id": "TXN0000005_C",
+    "account_id": "ACC0028",
+    "counterparty_account_id": "ACC0012",
+    "leg_type": "CREDIT",
+    "amount": "305.95",
+    "currency": "INR",
+    "event_timestamp": "2026-01-01T00:00:09+00:00",
+    "event_sequence": 2,
+    "reference_id": "REF0000005"
+  }
+]
